@@ -1,0 +1,13 @@
+carpeta_datos = ./_data/
+carpeta_logs = ./_logs/
+input = madrid01.dat
+dni = 26515294
+num_pruebas = 5
+tam_poblacion = 50
+evaluzaciones_totales = 50000
+probabilidad_cruce = 0.7
+probabilidad_mutacion = 0.05
+prob_OX2 = 0.5
+tam_elite = 3
+tipo_cruce = OX2
+crear_logs = SI

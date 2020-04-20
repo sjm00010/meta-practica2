@@ -1,0 +1,23 @@
+El ejecutable .exe generado necesita que se le suministre una ruta correcta mediante
+el archivo "parametros.txt" ya que si no introducimos bien las rutas no sera capaz de leer
+los datos.
+
+Para ello en carpeta_datos debemos introducir la ruta donde se encuentren los datos,
+por defecto viene la ruta relatíva usada para compilar y ejecutar el proyecto en NetBeans 8.2
+con Winsows 10. Para cualquier otro sistema o si se modifica la direccion de los datos se debe
+de introducir la nuva ruta con la carpeta de los datos. No se debe olvidar hacer lo mismo para
+"carpeta_logs" ya que guarda la ruta de la carpeta donde se generaran los archivos .log
+
+Si no se desea que se creen ficheros .log se debe configurar la variable de creacion a "NO", en caso
+contrario DEBE darse el valor "SI".
+
+Además se debe introducir el archivo que se quiere ejecutar, tan solo el nombre y la extension
+en la variable "input".
+
+Debe asegurarse de que al introducir los datos se respete el formato seguido, "nombre_variable = valor"
+ya que de no seguirse el programa no sera capaz de leerlos correctamente. Para ello los espacios del 
+simbolo = son indispensables, además de que tanto el nombre como el valor de la variable
+no pueden contener espacios en blanco.
+
+El resto de variables poseen nombres bastantes explicativos y hacen referencia a distintos parametros 
+configurables de la practica.
